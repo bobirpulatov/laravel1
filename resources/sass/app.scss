@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: normal;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  font-weight: bold;
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Italic";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/Roboto/Roboto-Italic.ttf");
+}
+
+
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: normal;
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Bold";
+  font-weight: bold;
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Italic";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf");
+}
+
+//
+body{
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 1em;
+}
+
+
+@import "layout.scss";
