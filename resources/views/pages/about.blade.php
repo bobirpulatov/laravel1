@@ -2,6 +2,7 @@
 
 @section('head')
     <title>About :: {{config('app.name', 'LS APP')}}</title>
+    {!! $a !!} @{{$second}}
 @endsection
 
 @section('content')
